@@ -1,0 +1,138 @@
+:root {
+  --captor-ink: #0f172a;
+  --captor-muted: #64748b;
+  --captor-line: #e2e8f0;
+  --captor-soft: #f8fafc;
+}
+
+html,
+body,
+#app,
+.slidev-layout {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.slidev-layout {
+  background: #fff;
+  color: var(--captor-ink);
+  padding: 3rem 3.4rem 2.6rem;
+}
+
+.slidev-layout h1 {
+  color: var(--captor-ink);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+}
+
+.slidev-layout h2,
+.slidev-layout h3 {
+  color: var(--captor-ink);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.slidev-layout p,
+.slidev-layout li {
+  color: #334155;
+}
+
+.slidev-layout a {
+  color: var(--captor-ink);
+}
+
+.slidev-layout table {
+  font-size: 0.78rem;
+  width: 100%;
+}
+
+.slidev-layout th {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--captor-muted);
+  border-bottom: 1px solid var(--captor-line);
+}
+
+.slidev-layout td {
+  border-color: #f1f5f9;
+  padding: 0.42rem 0.5rem;
+}
+
+.kicker {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--captor-muted);
+  margin-bottom: 0.65rem;
+}
+
+.card {
+  border: 1px solid #f1f5f9;
+  border-radius: 1rem;
+  padding: 1rem 1.15rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 0.04);
+}
+
+.card-soft {
+  background: var(--captor-soft);
+  border: 1px solid #f1f5f9;
+  border-radius: 1rem;
+  padding: 1rem 1.15rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: #0f172a;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.7rem;
+}
+
+.pill-light {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+.quote-mark {
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #cbd5e1;
+  font-weight: 600;
+}
+
+.dark {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p,
+.dark li {
+  color: #f8fafc !important;
+}
+
+.dark .kicker {
+  color: #94a3b8;
+}
+
+.cover-reset h1 {
+  margin: 0;
+  font-size: 2.55rem;
+}
+
+.tiny {
+  font-size: 0.72rem;
+  color: var(--captor-muted);
+  line-height: 1.45;
+}
